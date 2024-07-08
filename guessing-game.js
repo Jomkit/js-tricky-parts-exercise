@@ -15,7 +15,7 @@ function guessingGame() {
             return `${guess} is too low!`;
         } else{
             hasWon = true;
-            return `You win! You found ${rndNum} in ${tries} guesses`;
+            return `You win! You found ${rndNum} in ${tries} guesses.`;
         }
     }
 }
